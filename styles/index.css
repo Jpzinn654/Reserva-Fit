@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #FEF6F3;
+}
+
+.big-contain {
+    display: flex;
+}
+
+.box1 {
+    margin-top: 2em;
+    margin-left: 2em;
+    /* width: 504; */
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 40px;
+}
+
+.singup-with {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.singup-with .line {
+    width: 4;
+    height: 4;
+    padding-right: 30px;
+}
+
+.singup-with h3 {
+    color: #FFB7D5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.google-face {
+    display: flex;
+    /* padding-bottom: 40px; */
+    justify-content: center;
+}
+
+.google-face .google {
+    display: flex;
+    width: 245;
+    border: 1px solid #E8E8E8;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.google p{
+    font-size: 10;
+    font-family: 'Poppins', sans-serif;
+}
+
+.google .logo {
+    width: 20px;
+}
+
+.google-face .facebook {
+    display: flex;
+    width: 245;
+    border: 1px solid #E8E8E8;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.facebook .logo {
+    width: 20px;
+}
+
+.facebook p{
+    font-size: 8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.or {
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 15px;
+}
+
+label {
+    font-family: 'Poppins';
+}
+
+input {
+    height: 82;
+}
+
+.form {
+    display: block;
+}
+
+.form .up-form {
+    display: flex;
+}
+
+.form .up-form1 {
+    margin-right: 6em;
+}
+
+.form #form1 {
+    margin-right: 3em;
+    padding-left: 1em;
+}
+
+.form .body-form {
+    display: flex;
+}
+
+.form .body-form input {
+    width: 200px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form .down-form {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+}
+
+.form .down-form input {
+    width: 440px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+label #senha {
+    padding-top: 1em;
+}
+
+.box2 {
+    display: flex;
+    background-color: #FEF6F3;
+    height: 100vh;
+    margin-left: 8em;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1 {
+    width: 300px;
+}
