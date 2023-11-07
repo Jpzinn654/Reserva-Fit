@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #FEF6F3;
+}
+
+.big-contan {
+    display: flex;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.menu .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.items li a {
+    text-decoration: none;
+    display: block;
+    color: #828297;
+    padding: 5px 10px;
+    font-family: 'Poppins';
+}
+
+.items li a:hover {
+    color: #FFAC44;
+    transition: 0.35s;
+}
+
+li a .active {
+    color: #FFAC44;
+}
+
+.login-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-register a {
+
+    list-style: none;
+    text-decoration: none;
+    color: #828297;
+    padding: 5px 10px;
+    font-family: 'Poppins';
+}
+
+.login-register .register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #060640;
+    width: 130px;
+    height: 40px;
+}
+
+.register a {
+    color: white;
+}
+
+.mid-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.box2 {
+    width: 50%;
+    height:90vh;
+    /* background-color: red; */
+}
+
+.box2 .txt1 {
+    font-family: 'Poppins';
+    color: #060640;
+    text-align: left;
+    /* width: 100px; */
+}
+
+.box2 .txt2{
+    padding-top: 1em;
+    width: 70%;
+    font-family: 'Poppins';
+    color: #828297;
+    text-align: left;
+}
+
+.box2 .buttons {
+    display: flex;
+}
+
+.btn1 {
+    display: flex;
+    background-color: #060640;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn2 {
+    background-color: white;
+    height: 40px;
+}
+
+.box3 {
+    display: flex;
+    width: 45%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
