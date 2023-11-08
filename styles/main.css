@@ -161,3 +161,140 @@ li a .active {
     width: 100%;
     height: 100%;
 }
+
+.mid-contain2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height:90vh;
+    /* background-color: red; */
+}
+
+.img-reserva {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 3em;
+}
+
+.img-reserva img {    
+    width: 95%;
+    height: 95%;
+}
+
+.box5 {
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 45%;
+    height: 90vh;
+    /* background-color: aqua; */
+}
+
+.box5 .eclipse {
+    padding-left: 3.5em;
+}
+
+.box5 .txt3 {
+    text-align: justify;
+}
+
+.txt3 h1 {
+    color: #060640;
+}
+
+.txt3 p {
+    color: #828297;
+}
+
+.txt4 {
+    display: flex;
+    margin-top: 5%;
+    /* background-color: #FFAC44; */
+    height: 10vw;
+    justify-content: space-around;
+}
+
+.txt4 img {
+    width: 100%;
+    height: 50%;
+}
+
+.txt4 .sub-txt {
+    /* background-color: beige; */
+    width: 80%;
+}
+
+.txt5 {
+    display: flex;
+    margin-top: 5%;
+    /* background-color: #FFAC44; */
+    height: 15vw;
+    justify-content: space-around;
+}
+
+.txt5 {
+    display: flex;
+    /* background-color: #FFAC44; */
+    height: 15vw;
+    justify-content: space-around;
+}
+
+.txt5 img {
+    width: 100%;
+    height: 32%;
+}
+
+.txt5 .sub-txt {
+    /* background-color: beige; */
+    width: 80%;
+}
+
+.mid-contain3 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'Poppins';
+}
+
+.txt6 {
+    display: flex;
+    width: 35%;
+    height:90vh;
+    /* background-color: red; */
+}
+
+.txt6 h1 {
+    width: 80%;
+}
+
+.cards {
+    display: flex;
+    width: 60%;
+    height:90vh;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    /* background-color: red; */
+    width: 320px;
+    height: 250px;
+}
+
+.card img {
+    height: 30%;
+}
+
+.card1 {
+    margin-right: 5%;
+}
