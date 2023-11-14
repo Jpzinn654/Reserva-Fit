@@ -162,7 +162,7 @@ li a .active {
     height: 40px;
     width: 40px;
     border-radius: 20px;
-    box-shadow: 1px 1px 27px 0px rgba(0,0,0,0.15) ;
+    box-shadow: 1px 1px 27px 0px rgba(0, 0, 0, 0.15);
 }
 
 .box3 {
@@ -325,7 +325,7 @@ li a .active {
 
 .teste {
     font-family: 'Poppins';
-    background-image: url('../images/Newsletter.png') ;
+    background-image: url('../images/Newsletter.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 30vw;
@@ -367,4 +367,152 @@ li a .active {
     width: 180px;
     border-radius: 18px;
     cursor: pointer;
+}
+
+@media(max-width: 425px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .big-contan {
+        display: flex;
+    }
+
+    /* .mid-contain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .menu .items {
+        display: none;
+    }
+
+    .comment img {
+        width: 95%;
+    }
+
+    .mid-contain {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .txt1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .box2 .txt2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;    
+        width: 100%;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box3 {
+        display: none;
+    }
+
+    .mid-contain2 {
+        width: 100%;
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .box4 {
+        margin-top: 20px;
+        /* display: flex; */
+        width: 105%;
+        height: 100%;
+    }
+
+    .box5 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding-top: 1em;
+    }
+
+    .box5 .textos{
+        height: 100%;
+    }
+
+    .txt3 h1 {
+        display: flex;
+        text-align: start;
+        width: 85%;
+        padding-left: 1em;
+    }
+
+    .txt3 p {
+        padding-left: 2em;
+        width: 90%; 
+    }
+
+    .txt4 {
+        height: 23%;
+    }
+
+    .txt4 img {
+        height: 35%;
+    }
+
+    .txt5 {
+        height: 25%;
+    }
+
+    .mid-contain3 {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .txt6 {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding-left: 1em;
+        padding-bottom: 1em;
+    }
+
+     .cards {
+        display: inline;
+        width: 100%; 
+    }
+
+    .card1, .card2{
+        padding-left: 1em;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    
 }
