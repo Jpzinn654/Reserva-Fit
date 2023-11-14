@@ -369,6 +369,294 @@ li a .active {
     cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+    * {
+        overflow-x: hidden;
+        /* background-color: red; */
+    }
+}
+
+
+@media (max-width: 768px) {
+    * {
+        overflow-x: hidden;
+        /* background-color: red; */
+    }
+
+    .big-contan {
+        display: flex;
+    }
+
+    .box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 95%;
+    }
+
+    .mid-contain {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .txt1 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box2 .txt2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;    
+        width: 100%;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box3 {
+        display: none;
+    }
+
+    .mid-contain2 {
+        width: 100%;
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .box4 {
+        margin-top: 20px;
+        /* display: flex; */
+        width: 105%;
+        height: 100%;
+    }
+
+    .box5 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding-top: 1em;
+    }
+
+    .box5 .textos{
+        height: 100%;
+    }
+
+    .txt3 h1 {
+        display: flex;
+        text-align: start;
+        width: 85%;
+        padding-left: 1em;
+    }
+
+    .txt3 p {
+        padding-left: 2em;
+        width: 90%; 
+    }
+
+    .txt4 {
+        height: 23%;
+    }
+
+    .txt4 img {
+        height: 35%;
+    }
+
+    .txt5 {
+        height: 25%;
+    }
+
+    .mid-contain3 {
+        display: block;
+        width: 100%;
+        /* background-color: red; */
+    }   
+
+    .mid-contain3 .txt6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .txt6 {
+        width: 100%;
+        height: 20vw;
+    }
+
+    .mid-contain3 .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        padding-left: 2em;
+    }
+
+    .card2 p {
+        width: 90%;
+    }
+
+    .card1 p{
+        width: 90%;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 95%;
+        /* background-color: red; */
+    }
+
+    .menu .items {
+        display: none;
+    }
+
+    .mid-contain {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .txt1 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box2 .txt2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;    
+        width: 100%;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box3 {
+        display: none;
+    }
+
+    .mid-contain2 {
+        width: 100%;
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .box4 {
+        margin-top: 20px;
+        /* display: flex; */
+        width: 105%;
+        height: 100%;
+    }   
+
+    .box5 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding-top: 1em;
+    }
+
+    .box5 .textos{
+        height: 100%;
+    }
+
+    .txt3 h1 {
+        display: flex;
+        text-align: start;
+        width: 85%;
+        padding-left: 1em;
+    }
+
+    .txt3 p {
+        padding-left: 2em;
+        width: 90%; 
+    }
+
+    .txt4 {
+        height: 23%;
+    }
+
+    .txt4 img {
+        height: 35%;
+    }
+
+    .txt5 {
+        height: 25%;
+    }
+
+    .mid-contain3 {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .txt6 {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding-left: 10%;
+        padding-bottom: 10%;
+    }
+
+     .cards {
+        display: inline;
+        width: 100%; 
+    }
+
+    .card1, .card2{
+        padding-left: 10%;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+
 @media(max-width: 425px) {
     * {
         overflow-x: hidden;
@@ -377,12 +665,6 @@ li a .active {
     .big-contan {
         display: flex;
     }
-
-    /* .mid-contain {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
 
     .box1 {
         display: flex;
@@ -488,31 +770,11 @@ li a .active {
     }
 
     .mid-contain3 {
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-
-    .txt6 {
         display: flex;
-        width: 100%;
-        height: 100%;
-        padding-left: 1em;
-        padding-bottom: 1em;
-    }
-
-     .cards {
-        display: inline;
-        width: 100%; 
-    }
-
-    .card1, .card2{
-        padding-left: 1em;
+        background-color: green;
     }
 
     .footer {
         display: none;
     }
-
-    
 }
