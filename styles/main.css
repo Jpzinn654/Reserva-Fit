@@ -106,7 +106,7 @@ li a .active {
 
 .box2 {
     width: 40%;
-    height: 90vh;
+    height: 60%;
     /* background-color: red; */
 }
 
@@ -212,7 +212,7 @@ li a .active {
     /* align-items: center; */
     width: 45%;
     height: 90vh;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 .box5 .eclipse {
@@ -245,7 +245,7 @@ li a .active {
 }
 
 .txt4 .sub-txt {
-    /* background-color: beige; */
+    background-color: beige;
     width: 80%;
 }
 
@@ -380,7 +380,6 @@ li a .active {
 @media (max-width: 768px) {
     * {
         overflow-x: hidden;
-        /* background-color: red; */
     }
 
     .big-contan {
@@ -502,7 +501,7 @@ li a .active {
     
     .txt6 {
         width: 100%;
-        height: 20vw;
+        height: 100%;
     }
 
     .mid-contain3 .cards{
@@ -533,7 +532,6 @@ li a .active {
         justify-content: space-around;
         align-items: center;
         width: 95%;
-        /* background-color: red; */
     }
 
     .menu .items {
@@ -588,7 +586,6 @@ li a .active {
 
     .box4 {
         margin-top: 20px;
-        /* display: flex; */
         width: 105%;
         height: 100%;
     }   
@@ -629,8 +626,11 @@ li a .active {
     }
 
     .mid-contain3 {
+        display: inline;
+    }
+
+    .mid-contain3 .cards{
         display: block;
-        width: 100%;
         height: 100%;
     }
 
@@ -770,8 +770,12 @@ li a .active {
     }
 
     .mid-contain3 {
-        display: flex;
-        background-color: green;
+        display: inline;
+    }
+
+    .mid-contain3 .cards {
+        display: block;
+        height: 100%;
     }
 
     .footer {
