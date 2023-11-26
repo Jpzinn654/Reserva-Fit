@@ -4,10 +4,16 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: #FEF6F3;
+    overflow-x: hidden;
 }
 
 .big-contan {
@@ -88,6 +94,13 @@ li a .active {
     height: 40px;
 }
 
+.login-register .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
 .login-register .login a:hover {
     color: #FFAC44;
     transition: 0.35s;
@@ -107,7 +120,6 @@ li a .active {
 .box2 {
     width: 40%;
     height: 60%;
-    /* background-color: red; */
 }
 
 .box2 .txt1 {
@@ -190,7 +202,6 @@ li a .active {
     justify-content: center;
     width: 50%;
     height: 90vh;
-    /* background-color: red; */
 }
 
 .img-reserva {
@@ -212,7 +223,6 @@ li a .active {
     /* align-items: center; */
     width: 45%;
     height: 90vh;
-    background-color: aqua;
 }
 
 .box5 .eclipse {
@@ -245,7 +255,6 @@ li a .active {
 }
 
 .txt4 .sub-txt {
-    background-color: beige;
     width: 80%;
 }
 
@@ -320,16 +329,18 @@ li a .active {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     /* height: 80vw; */
 }
 
 .teste {
+    margin-left: 13%;
     font-family: 'Poppins';
     background-image: url('../images/Newsletter.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 30vw;
-    width: 900px;
+    width: 90%;
 }
 
 .txt7 {
@@ -344,7 +355,7 @@ li a .active {
 }
 
 #email {
-    width: 520px;
+    width: 30em;
     height: 60px;
     border: 1px solid #ccc;
     border-radius: 18px;
@@ -364,9 +375,10 @@ li a .active {
     font-family: 'Poppins';
     font-size: 15px;
     height: 60px;
-    width: 180px;
+    width: 9em;
     border-radius: 18px;
     cursor: pointer;
+    margin-left: 10%;
 }
 
 @media (max-width: 1024px) {
@@ -374,6 +386,130 @@ li a .active {
         overflow-x: hidden;
         /* background-color: red; */
     }
+
+    .txt4   {
+        height: 180px;
+    }
+
+    .txt5 {
+        height: 200px;
+    }
+
+    .box5 {
+    height: 100%;
+    }
+
+    .mid-contain2 {
+        width: 100%;
+        height: 100vh;
+    }
+
+
+    .mid-contain .comment  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comment img {
+        width: 95%;
+    }
+
+    .cards .card1 {
+        width: 70%;
+    }
+
+    .card1 p {
+        width: 75%;
+    }
+
+    .card2 p {
+        width: 75%;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+     .txt4   {
+        height: 180px;
+    }
+
+    .txt5 {
+        height: 200px;
+    }
+
+    .box5 {
+    height: 100%;
+    }
+
+    .mid-contain2 {
+        width: 100%;
+        height: 110vh;
+    }
+
+    .mid-contain3 {
+        display: block;
+        width: 100%;
+    }   
+
+    .mid-contain3 .txt6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .txt6 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mid-contain3 .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        padding-left: 2em;
+    }
+
+    .card2 p {
+        width: 90%;
+    }
+
+    .card1 p{
+        width: 90%;
+    }
+}
+
+@media (max-width: 850px) {
+    .mid-contain2 {
+        width: 100%;
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .box4 {
+        margin-top: 20px;
+        /* display: flex; */
+        width: 105%;
+        height: 100%;
+    }
+
+    .box5 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding-top: 1em;
+    }
+
+    .box5 .textos{
+        height: 100%;
+    }
+
+    
 }
 
 
