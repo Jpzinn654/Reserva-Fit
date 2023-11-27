@@ -35,21 +35,21 @@
             <div class="or">
                 <h2>Ou</h2>
             </div>
-            <div class="form">
+            <form class="form" id="contact-form">
                 <div class="up-form">
                     <label for="" class="up-form1">Nome Completo</label>
                     <label for="">E-mail</label>
                 </div>
                 <div class="body-form">
-                    <input type="text" name="" id="form1" placeholder="ABC...">
-                    <input type="text" name="" id="" placeholder="abc@abc.com">
+                    <input type="text" name="" id="name" placeholder="ABC...">
+                    <input type="text" name="" id="email" placeholder="abc@abc.com">
                 </div>
-                <label id="senha" id="senha" for="">Senha</label>
+                <label id="senha" for="">Senha</label>
                 <div class="down-form">
-                    <input type="text" placeholder="****">
+                    <input type="text" id="senha" minlength="8" placeholder="****">
                 </div>
                 <div class="terms">
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="checkbox">
                     <span class="checkmark"></span>
                     <label for="">"Eu li e concordo com o termos de serviço e nossa politica de privacidade. </label>
                 </div>
@@ -59,12 +59,13 @@
                 <div class="fnl-txt">
                     <p>Já possui uma conta? <a href="pages/main.html">Faça Login.</a></p>
                 </div>
-            </div>
+            </form>
         </div>
         <div class="box2">
             <img id="img1" src="images/Skipping.png" alt="">
         </div>
     </div>
 </body>
-
+<script src="/js/index.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 </html>
