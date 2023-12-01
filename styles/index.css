@@ -196,5 +196,130 @@ label #senha {
 
 
 #img1 {
+    display: visible;
     width: 300px;
+}
+
+@media (max-width: 425px) {
+
+    .singup-with {
+        padding-bottom: 1em;
+    }
+
+    .singup-with h3 {
+        font-size: 15px;
+    }
+
+    .google-face {
+        display: block;
+        margin-top: 0;
+    }
+
+    .google-face .google {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+
+    .google-face .facebook {
+        margin-left: 1em;
+    }
+
+    #email1 {
+        display: none;
+    }
+
+    .form {
+        display: block;
+    }
+
+    .form .up-form {
+        display: inline-block;
+    }
+
+    .form .body-form {
+        display: inline-block;
+    }
+    
+    .form .up-form1 {
+        margin-right: 0;
+    }
+
+    .terms label {
+        font-size: small;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    .fnl-txt {
+        font-size: small;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .singup-with {
+        padding-bottom: 1em;
+    }
+
+    #email1{
+        margin-left: 24%;
+    }
+
+    .form {
+        display: block;
+    }
+
+    .form .body-form {
+        display: inline-block;
+    }
+    
+    .form .up-form1 {
+        margin-right: 0;
+    }
+
+    .terms label {
+        font-size: medium;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    .fnl-txt {
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .singup-with {
+        padding-bottom: 1em;
+    }
+
+    #email1{
+        margin-left: 24%;
+    }
+
+    .form .up-form1 {
+        margin-right: 0;
+    }
+
+    .terms label {
+        font-size: medium;
+    }
+
+    .fnl-txt {
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width: 1024px) {
+
 }
