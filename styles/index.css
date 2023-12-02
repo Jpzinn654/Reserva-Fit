@@ -174,6 +174,7 @@ label #senha {
 }
 
 .button {
+    cursor: pointer;
     background-color: #FFAC44; 
     border: none;
     color: white;
@@ -194,6 +195,42 @@ label #senha {
     color: #FFAC44;
 }
 
+#email2 {
+    display: none;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    --webkit-appearance: none;
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+    background-color: #ccc;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=checkbox]:hover {
+    background-color: #bcbcbc;
+}
+
+input[type=checkbox]:after {
+    font-family: "Font Awesome 5 Free";
+    padding-left: 2px;
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 13px;
+    color: white;
+    display: none;
+}
+
+input[type=checkbox]:checked {
+    background-color: #FFAC44;
+}
+
+input[type=checkbox]:checked:after {
+    display: block;
+}
 
 #img1 {
     display: visible;
@@ -227,6 +264,10 @@ label #senha {
     #email1 {
         display: none;
     }
+    
+    #email2 {
+        display: flex;
+    }
 
     .form {
         display: block;
@@ -238,6 +279,10 @@ label #senha {
 
     .form .body-form {
         display: inline-block;
+    }
+
+    .form .body-form input {
+        width: 380px;
     }
     
     .form .up-form1 {
@@ -263,16 +308,24 @@ label #senha {
         padding-bottom: 1em;
     }
 
-    #email1{
-        margin-left: 24%;
+    #email1 {
+        display: none;
+    }
+    
+    #email2 {
+        display: flex;
     }
 
     .form {
         display: block;
     }
 
+    .form .body-form input {
+        width: 440px;
+    }
+
     .form .body-form {
-        display: inline-block;
+        display: block;
     }
     
     .form .up-form1 {
@@ -314,12 +367,4 @@ label #senha {
         font-size: medium;
         margin-bottom: 10px;
     }
-}
-
-@media (max-width: 1000px) {
-
-}
-
-@media (max-width: 1024px) {
-
 }

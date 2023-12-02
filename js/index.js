@@ -32,8 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        // Envie o formulário aqui (substitua esta parte com o código real de envio)
-        alert("Cadastro feito com sucesso!");
+        location.href = "pages/main.html";
         form.reset();
     });  
 });
