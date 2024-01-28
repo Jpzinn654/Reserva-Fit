@@ -70,7 +70,7 @@
   | Colaboradores                            | Participação                                             |LinkedIn                                                           |
 | ------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------- |
 | Juan Pablo                            | Desenvolvedor Front-End e Back-End                           |[LinkedIn](https://www.linkedin.com/in/juan-p-5291b5236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)                           |
-| Gabriel Pereira                            | Desenvolvedor UX                             |[LinkedIn](https://www.linkedin.com/in/gabriel-pereira-almeida?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)                   |
+| Gabriel Pereira                            | Desenvolvedor UX e Front-end                           |[LinkedIn](https://www.linkedin.com/in/gabriel-pereira-almeida?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)                   |
 | Davi Rodrigues                            | Documentação, monografia e suporte                      |[LinkedIn](https://www.linkedin.com/in/davi-rodrigues-64b308287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)                        |
 | Gabriel Beltrame                            | Documentação e monografia                           |[LinkedIn](https://www.linkedin.com/in/gabriel-b-5aa791271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)           |
   

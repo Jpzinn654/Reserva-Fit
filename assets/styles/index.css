@@ -1,0 +1,370 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #FEF6F3;
+}
+
+.big-contain {
+    display: flex;
+}
+
+.box1 {
+    margin-top: 2em;
+    margin-left: 2em;
+    /* width: 504; */
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 40px;
+}
+.teste{
+    display: flex;
+}
+
+.teste .line {
+    padding-right: 1em;
+}
+
+.singup-with {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.singup-with h3 {
+    color: #FFB7D5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.google-face {
+    display: flex;
+    /* padding-bottom: 40px; */
+    justify-content: center;
+}
+
+.google-face .google {
+    display: flex;
+    width: 245;
+    border: 1px solid #E8E8E8;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.google p{
+    font-size: 10;
+    font-family: 'Poppins', sans-serif;
+}
+
+.google .logo {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-face .facebook {
+    display: flex;
+    width: 245;
+    border: 1px solid #E8E8E8;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.facebook .logo {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook p{
+    font-size: 8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.or {
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 15px;
+}
+
+label {
+    font-family: 'Poppins';
+}
+
+input {
+    height: 82;
+}
+
+.form {
+    display: block;
+}
+
+.form .up-form {
+    display: flex;
+}
+
+.form .up-form1 {
+    margin-right: 7em;
+}
+
+.form #name {
+    margin-right: 3em;
+    padding-left: 1em;
+}
+
+.form .body-form {
+    display: flex;
+}
+
+.form .body-form input {
+    width: 200px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+
+.form .down-form {
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 1em; */
+}
+
+.form .down-form input {
+    width: 440px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+label #senha {
+    padding-top: 1em;
+}
+
+.box2 {
+    display: flex;
+    background-color: #FEF6F3;
+    height: 100vh;
+    margin-left: 8em;
+    justify-content: center;
+    align-items: center;
+}
+
+.terms {
+    margin-top: 1em;
+}
+
+.btn .button {
+    margin: 1em;
+}
+
+.btn img {
+    width: 80%;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #FFAC44; 
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 100%;
+    box-shadow: 0 6px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+.fnl-txt p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fnl-txt a {
+    text-decoration: none;
+    color: #FFAC44;
+}
+
+#email2 {
+    display: none;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    --webkit-appearance: none;
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+    background-color: #ccc;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=checkbox]:hover {
+    background-color: #bcbcbc;
+}
+
+input[type=checkbox]:after {
+    font-family: "Font Awesome 5 Free";
+    padding-left: 2px;
+    font-weight: 900;
+    content: "\f00c";
+    font-size: 13px;
+    color: white;
+    display: none;
+}
+
+input[type=checkbox]:checked {
+    background-color: #FFAC44;
+}
+
+input[type=checkbox]:checked:after {
+    display: block;
+}
+
+#img1 {
+    display: visible;
+    width: 300px;
+}
+
+@media (max-width: 425px) {
+
+    .singup-with {
+        padding-bottom: 1em;
+    }
+
+    .singup-with h3 {
+        font-size: 15px;
+    }
+
+    .google-face {
+        display: block;
+        margin-top: 0;
+    }
+
+    .google-face .google {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+
+    .google-face .facebook {
+        margin-left: 1em;
+    }
+
+    #email1 {
+        display: none;
+    }
+    
+    #email2 {
+        display: flex;
+    }
+
+    .form {
+        display: block;
+    }
+
+    .form .up-form {
+        display: inline-block;
+    }
+
+    .form .body-form {
+        display: inline-block;
+    }
+
+    .form .body-form input {
+        width: 380px;
+    }
+    
+    .form .up-form1 {
+        margin-right: 0;
+    }
+
+    .terms label {
+        font-size: small;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    .fnl-txt {
+        font-size: small;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .singup-with {
+        padding-bottom: 1em;
+    }
+
+    #email1 {
+        display: none;
+    }
+    
+    #email2 {
+        display: flex;
+    }
+
+    .form {
+        display: block;
+    }
+
+    .form .body-form input {
+        width: 440px;
+    }
+
+    .form .body-form {
+        display: block;
+    }
+    
+    .form .up-form1 {
+        margin-right: 0;
+    }
+
+    .terms label {
+        font-size: medium;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    .fnl-txt {
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .singup-with {
+        padding-bottom: 1em;
+    }
+
+    #email1{
+        margin-left: 24%;
+    }
+
+    .form .up-form1 {
+        margin-right: 0;
+    }
+
+    .terms label {
+        font-size: medium;
+    }
+
+    .fnl-txt {
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+}
